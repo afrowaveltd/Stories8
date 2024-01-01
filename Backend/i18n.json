@@ -1,0 +1,146 @@
+{
+  "TranslationsLocation": "C:\\Users\\spare\\source\\repos\\Stories8\\Backend.I18n\\I18n",
+  "DefaultLanguage": "en",
+  "LanguagesSupported": [
+    {
+      "Code": "en",
+      "Name": "English",
+      "Flag": "https://flagcdn.com/w320/gb.png"
+    },
+    {
+      "Code": "ar",
+      "Name": "Arabic",
+      "Flag": "https://flagcdn.com/w320/ae.png"
+    },
+    {
+      "Code": "az",
+      "Name": "Azerbaijani",
+      "Flag": "https://flagcdn.com/w320/az.png"
+    },
+    {
+      "Code": "zh",
+      "Name": "Chinese",
+      "Flag": "https://flagcdn.com/w320/cn.png"
+    },
+    {
+      "Code": "cs",
+      "Name": "Czech",
+      "Flag": "https://flagcdn.com/w320/cz.png"
+    },
+    {
+      "Code": "nl",
+      "Name": "Dutch",
+      "Flag": "https://flagcdn.com/w320/nl.png"
+    },
+    {
+      "Code": "eo",
+      "Name": "Esperanto",
+      "Flag": "https://www.fotw.info/images/q/qy-eo.gif"
+    },
+    {
+      "Code": "fi",
+      "Name": "Finnish",
+      "Flag": "https://flagcdn.com/w320/fi.png"
+    },
+    {
+      "Code": "fr",
+      "Name": "French",
+      "Flag": "https://flagcdn.com/w320/fr.png"
+    },
+    {
+      "Code": "de",
+      "Name": "German",
+      "Flag": "https://flagcdn.com/w320/de.png"
+    },
+    {
+      "Code": "el",
+      "Name": "Greek",
+      "Flag": "https://flagcdn.com/w320/gr.png"
+    },
+    {
+      "Code": "hi",
+      "Name": "Hindi",
+      "Flag": "https://flagcdn.com/w320/in.png"
+    },
+    {
+      "Code": "hu",
+      "Name": "Hungarian",
+      "Flag": "https://flagcdn.com/w320/hu.png"
+    },
+    {
+      "Code": "id",
+      "Name": "Indonesian",
+      "Flag": "https://flagcdn.com/w320/id.png"
+    },
+    {
+      "Code": "ga",
+      "Name": "Irish",
+      "Flag": "https://flagcdn.com/w320/ie.png"
+    },
+    {
+      "Code": "it",
+      "Name": "Italian",
+      "Flag": "https://flagcdn.com/w320/it.png"
+    },
+    {
+      "Code": "ja",
+      "Name": "Japanese",
+      "Flag": "https://flagcdn.com/w320/jp.png"
+    },
+    {
+      "Code": "ko",
+      "Name": "Korean",
+      "Flag": "https://flagcdn.com/w320/kr.png"
+    },
+    {
+      "Code": "fa",
+      "Name": "Persian",
+      "Flag": "https://flagcdn.com/w320/ir.png"
+    },
+    {
+      "Code": "pl",
+      "Name": "Polish",
+      "Flag": "https://flagcdn.com/w320/pl.png"
+    },
+    {
+      "Code": "pt",
+      "Name": "Portuguese",
+      "Flag": "https://flagcdn.com/w320/pt.png"
+    },
+    {
+      "Code": "ru",
+      "Name": "Russian",
+      "Flag": "https://flagcdn.com/w320/ru.png"
+    },
+    {
+      "Code": "sk",
+      "Name": "Slovak",
+      "Flag": "https://flagcdn.com/w320/sk.png"
+    },
+    {
+      "Code": "es",
+      "Name": "Spanish",
+      "Flag": "https://flagcdn.com/w320/es.png"
+    },
+    {
+      "Code": "sv",
+      "Name": "Sweish",
+      "Flag": "https://flagcdn.com/w320/se.png"
+    },
+    {
+      "Code": "tr",
+      "Name": "Turkish",
+      "Flag": "https://flagcdn.com/w320/tr.png"
+    },
+    {
+      "Code": "uk",
+      "Name": "Ukrainian",
+      "Flag": "https://flagcdn.com/w320/ua.png"
+    },
+    {
+      "Code": "vi",
+      "Name": "Vietnamese",
+      "Flag": "https://flagcdn.com/w320/vn.png"
+    }
+  ]
+}
