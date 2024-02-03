@@ -3,12 +3,17 @@ using Backend.I18n.Middlewares;
 using Backend.I18n.Models;
 using Backend.I18n.Services;
 using Backend.Models;
+using Backend.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
-
+Log.Logger = new LoggerConfiguration()
+   .WriteTo.SQLite(@"log.db")
+   .CreateLogger();
+builder.Host.UseSerilog();
 I18nConfigurationModel I18nSettings = await new I18nSettingsController().Load();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
@@ -47,11 +52,13 @@ builder.Services.AddSingleton(I18nSettings);
 builder.Services.AddTransient<I18nMiddleware>();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddTransient<IStringLocalizerFactory, JsonStringLocalizerFactory>();
+builder.Services.AddTransient<IFirstRunService, FirstRunService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 var app = builder.Build();
 
